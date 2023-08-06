@@ -1,0 +1,108 @@
+/* Normalizar el css */
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Imagen del encabezado */
+.imagen_header {
+  content: url("../../assets/images/design1_image2.jpg");
+  width: 100%;
+  height: 350px;
+  margin-top: 5%;
+}
+
+/* Nombre del club superpuesto */
+.nombre_club {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -600%);
+  font-size: 46px;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Titulo de cada pagina */
+.titulo_pagina {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  font-size: 18px;
+  position: static;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  transform: translate(0%, -700%);
+}
+
+/* Logo del club */
+.logo {
+  position: relative;
+  width: 150px;
+  top: 30px;
+  left: 0px;
+  z-index: 1;
+}
+
+.seccion {
+  margin-left: 190px;
+  margin-top: -190px;
+}
+
+/* Barra de navegacion */
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  transform: translate(80%, -1600%);
+  z-index: 1;
+}
+
+
+.nav-enlace {
+  text-decoration: none;
+  background-color: #3498db;
+  color: #333;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.nav-enlace:hover {
+  background-color: #2980b9;
+}
+
+
+/* Pie de pagina */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 20px;
+  margin-top: 0px;
+}
+
+article {
+  padding-top: 20px;
+}
+
+.email {
+  position: relative;
+  margin-left: 350px;
+  margin-top: -100px;
+}
+
+.css-valido {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
